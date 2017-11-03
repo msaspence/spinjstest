@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "watch": "spin watch"
+  },
   "dependencies": {
     "aws-sdk": "^2.143.0",
     "babel-core": "^6.26.0",

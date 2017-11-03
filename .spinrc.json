@@ -3,33 +3,11 @@
     "web": {
       "stack": "web",
       "entry": "./testing.js",
-      "openBrowser": false,
+      "openBrowser": true,
       "enabled": true
-    },
-    "android": {
-      "stack": ["react-native", "android"],
-      "enabled": false
-    },
-    "ios": {
-      "stack": ["react-native", "ios"],
-      "enabled": false
-    },
-    "test": {
-      "stack": "server",
-      "roles": ["test"]
     }
   },
   "options": {
-    "backendBuildDir": "build/server",
-    "frontendBuildDir": "build/client",
-    "dllBuildDir": "build/dll",
-    "overridesConfig": "tools/webpackAppConfig.js",
-    "stack": ["apollo", "react", "styled-components", "sass", "es6", "tcomb", "webpack"],
-    "backendUrl": "https://api.graph.cool/simple/v1/cj9g5d8nl7gtt0120v8uj493r",
-    "ssr": false,
-    "webpackDll": true,
-    "reactHotLoader": false,
-    "persistGraphQL": false,
-    "frontendRefreshOnBackendChange": true
+    "stack": ["apollo", "react", "styled-components", "sass", "es6", "tcomb", "webpack"]
   }
 }
