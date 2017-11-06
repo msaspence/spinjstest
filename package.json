@@ -32,7 +32,7 @@
     "persistgraphql-webpack-plugin": "^0.4.4",
     "raw-loader": "^0.5.1",
     "sass-loader": "^6.0.6",
-    "spinjs": "^0.4.26",
+    "spinjs": "^0.4.30",
     "style-loader": "^0.19.0",
     "tls": "^0.0.1",
     "url-loader": "^0.6.2",
